@@ -1,10 +1,13 @@
-import './App.css';
-import Navbar from './components/Navbar';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import UserRoute from "./routes/UserRoute";
 
 export default function App() {
   return (
     <>
-    <Navbar/>
+      <Routes>
+        <Route path="/*" element={<UserRoute />} />
+      </Routes>
     </>
-  )
+  );
 }

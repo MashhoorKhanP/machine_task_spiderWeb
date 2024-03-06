@@ -2,29 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(45deg,#0b0b0b,#230574);
+  background: linear-gradient(45deg, #0b0b0b, #230574);
   background-size: 300% 300%;
   animation: color 12s ease-in-out infinite;
 }
 
-@keyframes color{
-  0%{
+body {
+  padding: 24px;
+}
+
+div::-webkit-scrollbar {
+  height: 8px;
+}
+
+div::-webkit-scrollbar-track {
+  background: #666868;
+}
+
+div::-webkit-scrollbar-thumb {
+  background: #d175b6;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+
+div::-webkit-scrollbar-track:hover {
+  background: #7e797900;
+}
+
+@keyframes color {
+  0% {
     background-position: 0 50%;
   }
-  50%{
+  50% {
     background-position: 100% 50%;
   }
-  0%{
+  0% {
     background-position: 0 50%;
   }
 }
-
-/* body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-image: radial-gradient(to top left, rgba(0, 0, 0, 0.5), transparent), linear-gradient(to right, var(--gradient-start), var(--gradient-end));
-} */

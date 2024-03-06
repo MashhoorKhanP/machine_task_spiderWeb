@@ -9,6 +9,8 @@ export default {
       colors: {
         custom: {
           '500': '#d175b6',
+          '600': '#ce73b3',
+          '700' : '#e100ff'
         },
       },
     },
