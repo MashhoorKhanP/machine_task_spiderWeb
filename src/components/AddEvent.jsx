@@ -73,8 +73,8 @@ const AddEvent = () => {
               <h1 className="mb-2 font-semibold">
                 Event Name <span className="font-normal">(Venue Here)</span>
               </h1>
-              <div className="flex flex-col gap-2">
-                <div className="border-[#D175B6] border rounded-md flex p-1.5 w-full">
+              <div className="flex flex-col gap-2 text-sm">
+                <div className="border-[#D175B6] border rounded-md flex p-2 w-full">
                   <p className="w-1/2 font-normal">
                     Start:<span className="font-semibold p-1">12-12-2023</span>
                   </p>
@@ -82,7 +82,7 @@ const AddEvent = () => {
                     End:<span className="font-semibold p-1">15-12-2023</span>
                   </p>
                 </div>
-                <div className="border-[#D175B6] border rounded-md p-1">
+                <div className="border-[#D175B6] border rounded-md p-2">
                   <p>
                     Venue Address:
                     <span className=" font-semibold p-1">
